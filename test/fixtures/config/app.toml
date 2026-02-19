@@ -1,0 +1,7 @@
+[server]
+host = "localhost"
+port = 8080
+
+[database]
+name = "mydb"
+pool = 10

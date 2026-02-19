@@ -1,0 +1,639 @@
+[
+  [
+    "Bytes bytesToNumber extracts value",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses bytes suffix",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses gigabytes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses kilobytes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses megabytes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses raw number",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes parses terabytes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes rejects invalid suffix",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Bytes rejects negative bytes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "ConfigSource Semigroup combines sources with <>",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "ConfigSource Semigroup mempty acts as identity",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses days",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses fractional values",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses hours",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses milliseconds",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses minutes",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration parses seconds",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration rejects empty string",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration rejects invalid suffix",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration rejects negative duration",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration rejects non-numeric value",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration rejects suffix only",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Duration zero duration is valid",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank mkNonBlank rejects empty string",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank mkNonBlank rejects whitespace",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank mkNonBlank trims and returns value",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank parses non-blank string",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank rejects empty string",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank rejects tab-only via YAML",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank rejects whitespace-only string",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "NonBlank trims whitespace",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "OmLayer configLayer provides typed config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "OmLayer configLayer reports parse errors",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "OmLayer configLayer' provides literal config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "OmLayer configLayerFromSources merges and provides",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port accepts port 0",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port accepts port 65535",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port parses valid port",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port rejects negative port",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port rejects out of range port",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Port rejects port above 65535",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Secret parses and masks in show",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "Secret works with nested types",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Bytes roundtrips through serialization",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Bytes serializes as human-readable",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Bytes sub-KB stays as B",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Duration roundtrips through serialization",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Duration serializes as human-readable",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Duration sub-second stays as ms",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip NonBlank roundtrips",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Port roundtrips",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "WriteForeign roundtrip Secret roundtrips",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "env prefix type coercion coerces boolean env values",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "env prefix type coercion coerces numeric env values to numbers",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "env prefix type coercion keeps plain strings as strings",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromEnvPrefix reads env vars with prefix and nests by underscore",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromFile detects JSON extension",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromFile detects TOML extension",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromFile detects YAML extension",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromFile rejects unknown extension",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromFileOptional returns empty for missing file",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromJSONFile loads JSON",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromFile and fromFileOptional fromTOMLFile loads TOML",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromProfileDir loads default profile when env not set",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromProfileDir overlays profile-specific config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "fromRecord creates a config source from a record",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "loadConfig loads from TOML string source",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "loadConfig loads from YAML string source",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "loadConfigFromSources merges multiple sources left to right",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "mkSecret masks in show",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "mkSecret wraps a value",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "override deep merges config sources with right taking precedence",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "readTOML parses TOML into a typed record",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "readYAML parses YAML into a typed record",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "readYAML returns Left for invalid YAML",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "real-world usage composes multiple sources: defaults, file, env",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "real-world usage loads typed config from YAML with env resolution",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "real-world usage overrides defaults with env-specific config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateConfig returns Left with readable error for invalid source",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateConfig returns Right for valid source",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateConfig works with composed sources",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateJSON returns Left for invalid config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateJSON returns Right for valid config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateTOML returns Right for valid config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateYAML returns Left with readable error for invalid config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "validation utils validateYAML returns Right for valid config",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "withEnvResolution plain inline values pass through unchanged",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "withEnvResolution resolves env var references",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "withEnvResolution resolves nested env refs",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "withEnvResolution throws for missing env without default",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ],
+  [
+    "withEnvResolution uses default when env var is missing",
+    {
+      "timestamp": "1771536964586.0",
+      "success": true
+    }
+  ]
+]

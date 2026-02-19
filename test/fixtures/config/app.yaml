@@ -1,0 +1,19 @@
+server:
+  host: localhost
+  port: 8080
+  timeout: "30s"
+  maxUpload: "10MB"
+
+database:
+  host:
+    env: DB_HOST
+    default: localhost
+  port: 5432
+  name: myapp
+  password:
+    env: DB_PASSWORD
+  pool: 10
+
+app:
+  name: MyApp
+  debug: true

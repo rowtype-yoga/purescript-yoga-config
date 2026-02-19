@@ -1,0 +1,6 @@
+node_modules/
+output/
+.spago/
+.psc-ide-port
+bun.lock
+spago.lock
