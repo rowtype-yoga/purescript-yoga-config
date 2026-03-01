@@ -2,6 +2,7 @@ module Yoga.Config.Types
   ( Duration(..)
   , Bytes(..)
   , Port(..)
+  , Hostname(..)
   , Secret
   , mkSecret
   , revealSecret
@@ -138,6 +139,24 @@ instance ReadForeign Port where
 
 instance WriteForeign Port where
   writeImpl (Port n) = writeImpl n
+
+-- | A hostname string, validated to be non-empty
+newtype Hostname = Hostname String
+
+derive instance Newtype Hostname _
+derive newtype instance Eq Hostname
+derive newtype instance Ord Hostname
+derive newtype instance Show Hostname
+
+instance ReadForeign Hostname where
+  readImpl f = do
+    str <- readString f
+    let trimmed = trim str
+    if length trimmed > 0 then pure (Hostname trimmed)
+    else except $ note (singleton (ForeignError "Expected hostname, got empty string")) Nothing
+
+instance WriteForeign Hostname where
+  writeImpl (Hostname s) = writeImpl s
 
 -- | A secret value that masks itself in Show to prevent accidental logging.
 -- | Use `revealSecret` to access the underlying value.
