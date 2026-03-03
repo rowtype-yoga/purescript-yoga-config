@@ -1,15 +1,8 @@
-workspace:
-  packageSet:
-    registry: 73.0.0
-  extraPackages:
-    yoga-om: "1.4.0"
-    yoga-om-core: "1.0.5"
-    yoga-om-layer: "1.1.1"
-
+workspace: {}
 package:
   name: yoga-config
   publish:
-    version: 0.1.0
+    version: 0.1.1
     license: MIT
     location:
       githubOwner: rowtype-yoga
