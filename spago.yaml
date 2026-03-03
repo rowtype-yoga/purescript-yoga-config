@@ -2,7 +2,7 @@ workspace: {}
 package:
   name: yoga-config
   publish:
-    version: 0.1.1
+    version: 0.2.1
     license: MIT
     location:
       githubOwner: rowtype-yoga
